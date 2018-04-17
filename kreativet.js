@@ -12,6 +12,6 @@ app.get("/film", function(req, res) {
   res.render("film");
 });
 
-app.listen(3002, 'localhost', function() {
+app.listen(3002, function() {
   console.log("kreativet is online!");
 });
