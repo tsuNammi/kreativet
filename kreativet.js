@@ -12,6 +12,6 @@ app.get("/film", function(req, res) {
   res.render("film");
 });
 
-app.listen(process.env.PORT, process.env.IP, function() {
+app.listen(3002, 'localhost', function() {
   console.log("kreativet is online!");
 });
