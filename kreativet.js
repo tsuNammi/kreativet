@@ -25,10 +25,10 @@ app.get("/kommunikasjon", function(req, res) {
 });
 
 
-// app.listen(3002, function() {
-//   console.log("kreativet is online at " + this.address().port);
-// });
-
-app.listen(process.env.PORT, process.env.IP, function() {
-  console.log("kreativet beta is online");
+app.listen(3002, function() {
+  console.log("kreativet is online at " + this.address().port);
 });
+
+// app.listen(process.env.PORT, process.env.IP, function() {
+//   console.log("kreativet beta is online");
+// });
