@@ -23,3 +23,7 @@ h1 {
   padding-bottom: 50px;
   display: none;
 }
+
+.col-sm-12 {
+  padding-bottom: 50px;
+}
