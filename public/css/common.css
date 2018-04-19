@@ -1,0 +1,25 @@
+body {
+  color: black;
+  background: rgb(200,200,200);
+}
+
+.hoved {
+  background: rgb(220,220,220);
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+#content img {
+  border-radius: 20rem;
+}
+
+#gallery {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: none;
+}

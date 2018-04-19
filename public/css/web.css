@@ -1,0 +1,14 @@
+body {
+  color: black;
+  background: rgb(200,200,200);
+}
+
+.hoved {
+  background: rgb(220,220,220);
+  text-align: center;
+  padding: 50px 0;
+}
+
+#content img {
+  border-radius: 20rem;
+}
