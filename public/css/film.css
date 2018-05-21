@@ -1,17 +1,13 @@
-
-
 hr {
   width: 80%;
   border-top: 2px solid orange;
   /*border-bottom: 1px solid rgba(0,0,0,0.2);*/
 }
 
-
-
 .social a {
-  color: orange;
-  margin-right: 10px;
-  margin-left: 10px;
+  color: #f7931e;
+  /*margin-right: 10px;*/
+  /*margin-left: 10px;*/
 }
 
 .col-12 {

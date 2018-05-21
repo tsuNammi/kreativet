@@ -1,21 +1,28 @@
 body {
   color: black;
-  background: rgb(200,200,200);
+  background: rgb(235,235,235);
 }
 
 .hoved {
   background: rgb(220,220,220);
   text-align: center;
+}
+
+.hoved > .row {
   padding: 50px 0;
 }
 
-h1 {
-  font-size: 70px;
-}
+/*#contact {*/
+/*  text-align: right;*/
+/*}*/
 
-#content img {
+#photo img {
   border-radius: 20rem;
 }
+
+/*#short {*/
+/*  text-align: left;*/
+/*}*/
 
 #gallery {
   text-align: center;
