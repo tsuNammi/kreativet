@@ -4,15 +4,15 @@
 
   <div class="container-fluid hoved animated bounceInDown">
     <div class="row">
-      <div class="col-sm-12 col-md-2 offset-md-3 my-auto" id="contact">
+      <div class="col-sm-12 col-lg-2 offset-lg-3 my-auto" id="contact">
         <h4>Nam-Kha Nguyen</h4>
-        <h4>nammi@kreativet.no</h4>
+        <h4><a href="mailto:nammi@kreativet.no">nammi@kreativet.no</a></h4>
         <h4>(+47) 4550 4559</h4>
       </div>
-      <div class="col-sm-12 col-md-2 my-auto" id="photo">
-        <img class="img-fluid img-thumbnail" src="/images/nam.jpg">
+      <div class="col-sm-12 col-lg-2 my-auto" id="photo">
+        <img class="img-fluid img-thumbnail" src="/images/profile/nam.jpg">
       </div>
-      <div class="col-sm-12 col-md-2 my-auto" id="short">
+      <div class="col-sm-12 col-lg-2 my-auto" id="short">
         <h4>Skills:</h4>
         <h4>- HTML/CSS</h4>
         <h4>- JavaScript</h4>
@@ -20,11 +20,36 @@
         <h4>- MongoDB</h4>
         <h4>- Keystone.js CMS for node.js</h4>
       </div>
+      <div class="col-sm-12 col-lg-6 offset-lg-3 my-auto" id="long">
+        <h5>
+          Yo!
+          <br>
+          Mitt navn er Nam-Kha, og jeg har nylig lært meg programmering! 
+          Jeg var tidligere ingeniør i oljen, hvor jeg jobbet i hele 5 1/2 år, men fant etter hvert ut at det ikke var det kuleste å drive med.
+          Det siste året har jeg dermed tatt meg kurs på nett for å lære meg først og fremst webside-programmering, og jeg har til nå ervervet meg de listede skillsa over.
+          Som programmerer er det alltid nye utfordringer, i og med at teknologiene hele veien utvikler seg, og jeg holder alltid på med et kurs av slag, akkurat nå React Native; for å kunne lage mobil apps samtidig som jeg lærer React for web.
+          Målet er å frilanse heltid, og foruten siden du leser på nå, så kan du finne noe av det jeg har laget til nå, under.
+        </h5>
+      </div>
     </div>
+
   </div>
 
-  <div class="container-fluid" id="gallery">
-    <img class="img-fluid" src="/images/web_bakke.gif">  
+  <div class="container" id="gallery">
+    <div class="row">
+      <div class="col-lg-6">
+        <a href="https://bakkefestivalen.no" target="_blank"><img class="img-fluid" src="/images/portfolio/web/bakke_desktop.jpg" id="bakke_desktop"></a>
+      </div>
+      <div class="col-lg-3">
+        <a href="https://bakkefestivalen.no" target="_blank"><img class="img-fluid" src="/images/portfolio/web/bakke_mobile.png" id="bakke_mobile"></a> 
+      </div>
+      <div class="col-lg-3" id="bakke_tekst">
+        <a href="https://bakkefestivalen.no" target="_blank"><h4>www.bakkefestivalen.no</h4></a>
+        <h5>Bakkefestivalens offisielle hjemmeside!</h5>
+        <h5>Nøkkelfunksjoner; keystone.js CMS som tilrettelegger nyhetspublisering, fullt mobilt responsivt design</h5>
+      </div>
+    </div>
+    
   </div>
 
 <% include partials/footer %>

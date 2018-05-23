@@ -6,3 +6,14 @@ body {
 #content img {
   border-radius: 20rem;
 }
+
+@media (min-width: 1024px) {
+  #bakke_mobile {
+    height: 400px;
+    width: auto;
+  }
+}
+
+#bakke_tekst {
+  text-align: left;
+}

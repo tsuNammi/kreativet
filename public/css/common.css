@@ -20,9 +20,19 @@ body {
   border-radius: 20rem;
 }
 
-/*#short {*/
-/*  text-align: left;*/
-/*}*/
+#short {
+  text-align: center;
+}
+
+#long {
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  #short {
+    text-align: left;
+  }
+}
 
 #gallery {
   text-align: center;
@@ -31,6 +41,6 @@ body {
   display: none;
 }
 
-.col-sm-12 {
-  padding-bottom: 50px;
+.col-lg-2 {
+  padding-bottom: 25px;
 }

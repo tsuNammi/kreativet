@@ -14,3 +14,15 @@ h2 {
   color: #888;
   font-size: 20px;
 }
+
+.contact {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.contactPic {
+  height: 200px;
+  width: auto;
+  border-radius: 20em;
+}
