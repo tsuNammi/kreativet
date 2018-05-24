@@ -9,6 +9,7 @@ body {
 
 @media (min-width: 1024px) {
   #bakke_mobile {
+    
     height: 400px;
     width: auto;
   }

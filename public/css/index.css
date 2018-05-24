@@ -20,6 +20,16 @@ h2 {
   font-size: 20px;
 }
 
+.frontPerson {
+  padding-bottom: 50px;
+}
+
+@media (min-width: 1024px) {
+  .frontPerson {
+    padding-bottom: 0;
+  }
+}
+
 .contact {
   text-align: center;
   padding-top: 25px;
