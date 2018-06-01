@@ -8,7 +8,7 @@ app.get("/", function(req, res) {
   res.render("index");
 });
 
-app.get("/grafikk", function(req, res) {
+app.get("/grafisk", function(req, res) {
   res.render("grafikk");
 });
 
