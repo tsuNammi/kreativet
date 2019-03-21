@@ -8,9 +8,9 @@ app.get("/", function(req, res) {
   res.render("index");
 });
 
-app.get("/grafisk", function(req, res) {
-  res.render("grafikk");
-});
+// app.get("/grafisk", function(req, res) {
+//   res.render("grafikk");
+// });
 
 app.get("/film", function(req, res) {
   res.render("film");
@@ -20,9 +20,9 @@ app.get("/web", function(req, res) {
   res.render("web");
 });
 
-app.get("/kommunikasjon", function(req, res) {
-  res.render("kommunikasjon");
-});
+// app.get("/kommunikasjon", function(req, res) {
+//   res.render("kommunikasjon");
+// });
 
 
 app.listen(3002, function() {
