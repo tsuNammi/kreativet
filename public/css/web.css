@@ -18,3 +18,7 @@ body {
 #bakke_tekst {
   text-align: left;
 }
+
+#gallery > .row {
+  padding-bottom: 25px;
+}
